@@ -40,7 +40,7 @@
                 <configuration>
                     <skipTests>${skipTests}</skipTests>
                     <suiteXmlFiles>
-                        <suiteXmlFile>Regression_Suite.xml</suiteXmlFile>
+                        <suiteXmlFile>testSuites/Suite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <properties>
                         <usedefaultlisteners>true</usedefaultlisteners>
