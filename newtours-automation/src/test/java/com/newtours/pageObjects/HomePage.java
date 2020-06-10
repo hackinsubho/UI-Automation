@@ -5,8 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import javax.naming.Name;
-
 public class HomePage extends BaseClass {
     @FindBy(how = How.XPATH, using = "//td/a[contains(text(),\"REGISTER\")]")
     private WebElement registerLink;
